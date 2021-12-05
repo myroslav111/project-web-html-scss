@@ -1,0 +1,96 @@
+// .footer-links{
+//     display: flex;
+//     margin-left: 70px;
+//     padding-top: 12px;
+//     padding-bottom: 40px;
+// }
+// .footer-block-links{
+//     margin-right: 93px;
+//     &__title{
+//     color: getColor('accent-activ-text');
+//     font-size: getFont('primary');
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     margin-bottom: 20px;
+//     }
+// }
+// .footer-list-links{
+//     display: flex;
+// }
+// .footer-social-networks:not(:last-child){
+//     margin-right: 10px;
+// }
+// .footer-link-social-networks{
+//     width: 44px;
+//     height: 44px;
+//     display: flex;
+//     fill: getColor('accent-activ-text');
+//     padding: 12px;
+//     border-radius: 50%;
+//     background-color: getColor('background-footer-icon');
+//     transition-property: background-color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+//     &:hover,
+//     &:focus{
+//     background-color: getColor('accent-activ');
+//     fill: getColor('accent-activ-text');
+// }
+// }
+// .footer-form-text{
+//     font-weight: bold;
+//     font-size: getFont('primary');
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: getColor('accent-activ-text');
+//     margin-bottom: 20px;
+// }
+// .footer-form-block{
+//     display: flex;
+//     align-items: center;
+// }
+// .footer-label-mail{
+//     margin-right: 12px;
+// }
+// .footer-input--mail{
+//     background: inherit;
+//     width:358px;
+//     height: 50px;
+//     border: 1px solid rgba(255, 255, 255, 0.3);
+//     box-sizing: border-box;
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) ;
+//     border-radius: 4px;
+//     font-size: getFont('other');
+//     line-height: 20px;
+//     color: getColor('footer-text-color');
+//     padding-left: 16px;
+// }
+// .footer-btn--subscribe{
+//         position: relative;
+//     width: 200px;
+//     height: 50px;
+//     background-color: getColor('accent-activ');
+//     outline: none;
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+//     border-radius: 4px;  
+//     font-weight: bold;
+//     font-size: getFont('other');
+//     line-height: 1.87;
+//     letter-spacing: 0.06em;
+//     color: getColor('accent-activ-text');
+// }
+// .icon-plain{
+//     position: absolute;
+//     display: inline-block;
+//     top: 11px;
+//     right: 28px;
+//     width: 24px;
+//     height: 24px;
+// }
+// .svg-plain{
+//     display: inline-block;
+//     margin-left: 30px;
+// }
+

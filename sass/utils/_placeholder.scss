@@ -1,0 +1,26 @@
+%logo {  
+    font-size: getFont('logo');
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: bold;   
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+%container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+%title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: getColor('secondary-text');
+    font-weight: bold;
+    font-size: getFont('secondary');
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    
+}

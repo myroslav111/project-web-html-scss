@@ -1,0 +1,36 @@
+.logo{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+
+}
+.accent{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+    
+}
+
+// .logo {  
+//     margin-right: 93px;
+//     font-size: getFont('logo');
+//     color: getColor('logo-black') ;
+//     text-decoration: none;
+//     font-family: Raleway;
+//     font-weight: bold;   
+//     line-height: 1.2;
+//     letter-spacing: 0.03em;
+// }
+// .accent{
+//     color: getColor('accent-activ') ;
+//     font-size: getFont('logo');
+//     @extend %logo;
+// }
