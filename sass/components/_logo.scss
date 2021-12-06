@@ -6,7 +6,23 @@
     letter-spacing: 0.03em;
     color: #212121;
     text-decoration: none;
-
+        @media screen and(min-width: 480px) {
+            width: 480px;
+        }
+        @media screen and(min-width: 768px){
+            width: 768px;
+        }
+         @media screen and(min-width: 1200px){
+            width: 1200px;
+            margin-right: 93px;
+            font-size: getFont('logo');
+            color: getColor('logo-black') ;
+            text-decoration: none;
+            font-family: Raleway;
+            font-weight: bold;   
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+        }
 }
 .accent{
     font-family: Raleway;
@@ -16,21 +32,21 @@
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-    
+            @media screen and(min-width: 480px) {
+            width: 480px;
+        }
+        @media screen and(min-width: 768px){
+            width: 768px;
+        }
+         @media screen and(min-width: 1200px){
+            width: 1200px;
+            color: getColor('accent-activ') ;
+            font-size: getFont('logo');
+            text-decoration: none;
+            font-family: Raleway;
+            font-weight: bold;   
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+        }
 }
 
-// .logo {  
-//     margin-right: 93px;
-//     font-size: getFont('logo');
-//     color: getColor('logo-black') ;
-//     text-decoration: none;
-//     font-family: Raleway;
-//     font-weight: bold;   
-//     line-height: 1.2;
-//     letter-spacing: 0.03em;
-// }
-// .accent{
-//     color: getColor('accent-activ') ;
-//     font-size: getFont('logo');
-//     @extend %logo;
-// }
