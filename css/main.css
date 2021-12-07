@@ -98,27 +98,17 @@ h1 {
 }
 
 .top-line__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   min-height: 60px;
   min-width: 320px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (max-width: 480px) {
-  .top-line__container {
-    width: 480px;
-  }
   .top-line__container .menu-container {
     position: fixed;
     top: 0;
@@ -159,15 +149,25 @@ h1 {
     background-color: transparent;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
     outline: none;
+  }
+  .top-line__container .btn-open {
+    position: absolute;
+    top: 10px;
+    right: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .top-line__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 768px;
-    min-height: 80px;
+    height: 80px;
   }
   .top-line__container .menu-toggle, .top-line__container .social-networks-list-mobile-menu {
     display: none;
@@ -281,6 +281,9 @@ h1 {
   .top-line__container .top-line {
     border-bottom: 1px solid #ECECEC;
   }
+  .top-line__container .top-line__contact {
+    display: -webkit-box;
+  }
   .top-line__container .top-line__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -343,17 +346,7 @@ h1 {
     color: #2196F3;
   }
   .top-line__container .top-line__link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 0px;
     text-decoration: none;
     color: #757575;
     font-weight: 500;
@@ -372,20 +365,14 @@ h1 {
     color: #2196F3;
     fill: #2196F3;
   }
-  .top-line__container .top-line__link .top-line__contact {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: auto;
-  }
-  .top-line__container .top-line__link .top-line__contact__mail {
-    margin-right: 30px;
-  }
-  .top-line__container .top-line__icon-mail, .top-line__container .top-line__icon-tell {
+  .top-line__container .top-line__link .top-line__icon-mail, .top-line__container .top-line__link .top-line__icon-tell {
     margin-right: 10px;
   }
-  .top-line__container .top-line__mail {
-    margin-right: 30px;
+  .top-line__container .top-line__link .top-line__mail {
+    padding: 0px;
+  }
+  .top-line__container .top-line__link .top-line__tell {
+    padding: 0px;
   }
 }
 
