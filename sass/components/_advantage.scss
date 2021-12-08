@@ -1,13 +1,13 @@
 .benefits{
-margin: 0px;
-&__container{
-    max-width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
-padding-bottom: 60px;
+    margin: 0px;
+    &__container{
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
 @media screen and (min-width: 768px) and (max-width: 1199px){
     max-width: 768px;
 }
@@ -21,7 +21,7 @@ padding-bottom: 60px;
 .block-list:not(:last-child){
     margin-bottom: 30px;
 
-//    
+
 }
  .benefits-list{
      @media screen and (min-width: 768px){
@@ -47,7 +47,7 @@ padding-bottom: 60px;
   margin-bottom: 0px;
 }
         }
-            @media screen and (min-width: 1200px){
+        @media screen and (min-width: 1200px){
              max-width: 270px;
                 &:not(:last-child){
                     margin-right: 30px;
@@ -83,7 +83,7 @@ padding-bottom: 60px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-
+// 
 
 // .benefits{
 //     padding-top: 94px;
