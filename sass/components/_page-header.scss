@@ -9,13 +9,16 @@
         min-width: 320px;
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        // padding-top: 16px;
+        // padding-bottom: 16px;
         margin-left: auto;
         margin-right: auto ;
-        @media screen and (max-width: 480px) {
+        @media screen and (max-width: 767px) {
             // width: 480px;
+            padding-top: 16px;
+                padding-bottom: 16px;
             .menu-container{
+                
     position: fixed;
     top: 0;
     left: 0;
@@ -57,13 +60,14 @@
         @media screen and (min-width: 768px){
             display: flex;
             align-items: center;
-            width: 768px;
-            height: 80px;
+            max-width: 768px;
+            max-height: 80px;
             .menu-toggle, .social-networks-list-mobile-menu{
                 display: none;
             }
             .menu-container{
                 display: flex;
+                margin-left: 88px;
             }
             .nav{
                 display: flex;
@@ -154,7 +158,7 @@
 
         }
          @media screen and (min-width: 1200px){
-            width: 1200px;
+            max-width: 1200px;
             .top-line{
     border-bottom: 1px solid #ECECEC;
     &__contact{
@@ -164,10 +168,15 @@
         @include centeredFlex($type: flex);
     }
 }
+.menu-container{
+    margin-left: 93px;
+    
+}
 .nav-list{
     display: flex;
+    margin-right: 305px;
     &__menu:not(:last-child){
-        margin-right: 50px;
+        margin-right: px;
         } 
     }  
 .link--blue{
@@ -212,8 +221,17 @@
         color: getColor('accent-activ');
     }   
 }
-.top-line__link{
+.top-line__mail, .top-line__tell{
     padding: 0px;
+    display: flex;
+
+}
+.top-line__mail{
+    margin-right: 30px;}
+.top-line__link{
+    padding-top: 0;
+    padding-bottom: 0;
+
     // @include centeredFlex($type: flex);
     // padding-top: 32px;
     // padding-bottom: 32px;
@@ -235,17 +253,7 @@
     }  
 
 
-.top-line__icon-mail, .top-line__icon-tell{
-    margin-right: 10px;  
-}
-.top-line__mail{
-    // margin-right: 30px;
-    padding: 0px;
-}
-.top-line__tell{
-    padding: 0px;
 
-}
 }}
 
     }
