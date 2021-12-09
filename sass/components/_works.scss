@@ -1,3 +1,23 @@
+.works{
+    &__container{
+        display: none;
+        @media screen and(min-width: 1200px){
+                width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+        }           @media screen and(min-width: 1200px) {
+                display: block;
+             padding-top: 94px;
+    padding-bottom: 94px;
+    margin-bottom: 0px;}
+    }
+ 
+ 
+        }
+
+
 // .works{
 //     padding-top: 94px;
 //     padding-bottom: 94px;
@@ -5,36 +25,43 @@
 //     &__container{
 //     @extend %container;
 // }   
-// }
-// .works-title{
-//     @extend %title;
-// }
-// .works-list{
-//     display: flex;
-// }
-// .works-block:not(:last-child){
-//     margin-right: 30px;
-// }
-// .works-block{
-//     display:flex;
-//     position: relative;
-// }
-// .works-block__text{
-//     position: absolute;
-//     right: 0;
-//     bottom: 0;
-//     width: 100%;
-//     height: 70px;
-//     background-color: getColor('background-img');
-//     font-weight: bold;
-//     font-size: getFont('primary');
-//     line-height: 16px;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     padding: 27px 85px;
-//     white-space:nowrap;
-//     color: getColor('accent-activ-text');
-// }
+// 
+.works-title{
+        text-align: center;
+    margin-bottom: 50px;
+    color: getColor('secondary-text');
+    font-weight: bold;
+    font-size: getFont('secondary');
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+}
+.works-list{
+    display: flex;
+}
+.works-block:not(:last-child){
+    margin-right: 30px;
+}
+.works-block{
+    display:flex;
+    position: relative;
+}
+.works-block__text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: getColor('background-img');
+    font-weight: bold;
+    font-size: getFont('primary');
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding: 27px 85px;
+    white-space:nowrap;
+    color: getColor('accent-activ-text');
+}
 
 
