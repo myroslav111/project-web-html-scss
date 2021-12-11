@@ -1,3 +1,104 @@
+.footer{
+    background-color: getColor('background-footer');
+    &__container{
+        max-width: 480px;
+        padding: 60px 15px;
+        margin-left: auto;   
+        margin-right: auto;
+        @media screen and (min-width: 768px){
+            max-width: 768px;
+        }    
+    }
+}
+.footer-block{
+    margin-bottom: 60px;
+}
+.logo--white{
+    color: getColor('accent-activ-text'); 
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.accent{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.address{
+    font-style: normal;
+    color: getColor('accent-activ-text');    
+    font-size: getFont('primary');
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.footer-link{
+    text-decoration: none;
+    color: getColor('footer-text-color');
+    font-size: getFont('primary');
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    transition-property: color ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+        color: getColor('accent-activ');
+    }
+}
+.footer-contakt{
+    text-align: center;
+}
+.footer-box:not(:last-child){
+    margin-bottom: 8px;
+}
+.footer-block-links__title{
+    color: getColor('accent-activ-text');
+    font-size: getFont('primary');
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-link-social-networks{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    fill: getColor('accent-activ-text');
+    padding: 12px;
+    border-radius: 50%;
+    background-color: getColor('background-footer-icon');
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    &:hover,
+    &:focus{
+    background-color: getColor('accent-activ');
+    fill: getColor('accent-activ-text');
+    }
+}
+.footer-list-links{
+    display: flex;
+    justify-content: center;
+}
+.footer-social-networks:not(:last-child){
+    margin-right: 10px;
+}
+.footer-block-links{
+    margin-bottom: 60px;
+}
+
+
+
 // .footer{
 //     background-color: getColor('background-footer');
 //     padding-top: 60px;

@@ -14,64 +14,66 @@
     padding: 118px 60px;
     @media (min-resolution: 2dppx) {
       background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header-tellx2_img.webp');
+      rgba(47, 48, 58, 0.4),
+     #2F303A66), url('../css/../images/Header-tellx2_img.webp');
     }   
     @media screen and (min-width: 480px) {
       background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header_tablet_img.webp');   
-    @media (min-resolution: 2dppx){
-      background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header_tablet_img@2x.webp');
-    }}
-        @media screen and (min-width: 768px) {
-          min-height: 400px;
-      background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header_tablet_img.webp');   
-    @media (min-resolution: 2dppx){
-      background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header_tablet_img@2x.webp');
-    }}
-            @media screen and (min-width: 1200px) {
-              padding-top: 200px;
-              padding-bottom: 200px;
-          min-height: 600px;
-      background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header_tablet_img.webp');   
-    @media (min-resolution: 2dppx){
-      background-image: linear-gradient( 
-  rgba(47, 48, 58, 0.4),
-  #2F303A66), url('../css/../images/Header_tablet_img@2x.webp');
-    }}
-    
-    &__title{
-        font-weight: 900;
-        font-size: 26px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        margin-bottom: 30px;
-        @media screen and (min-width: 1200px){
-          font-size: 44px;
-line-height: 60px;
-        }
+    rgba(47, 48, 58, 0.4),
+    #2F303A66), url('../css/../images/Header_tablet_img.webp');   
+      @media (min-resolution: 2dppx){
+        background-image: linear-gradient( 
+      rgba(47, 48, 58, 0.4),
+      #2F303A66), url('../css/../images/Header_tablet_img@2x.webp');
+      }
     }
+    @media screen and (min-width: 768px) {
+      min-height: 400px;
+      background-image: linear-gradient( 
+    rgba(47, 48, 58, 0.4),
+    #2F303A66), url('../css/../images/Header_tablet_img.webp');   
+      @media (min-resolution: 2dppx){
+        background-image: linear-gradient( 
+      rgba(47, 48, 58, 0.4),
+      #2F303A66), url('../css/../images/Header_tablet_img@2x.webp');
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      min-height: 600px;
+      background-image: linear-gradient( 
+    rgba(47, 48, 58, 0.4),
+    #2F303A66), url('../css/../images/Header_tablet_img.webp');   
+      @media (min-resolution: 2dppx){
+        background-image: linear-gradient( 
+      rgba(47, 48, 58, 0.4),
+      #2F303A66), url('../css/../images/Header_tablet_img@2x.webp');
+      }
+    }   
+  &__title{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    @media screen and (min-width: 1200px){
+      font-size: 44px;
+      line-height: 60px;
+    }
+  }
 }
 .hero__button{
-    color: getColor('accent-activ-text');
-    font-weight: bold;
-    font-size: getFont('other');
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    background-color: getColor('accent-activ');
-    border-radius: 4px;
+  color: getColor('accent-activ-text');
+  font-weight: bold;
+  font-size: getFont('other');
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  background-color: getColor('accent-activ');
+  border-radius: 4px;
 }
 
 
