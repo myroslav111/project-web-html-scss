@@ -17,9 +17,9 @@ li{
     margin-top:  0px;
     margin-bottom: 0px;
 }
-// :focus{
-//     outline: none;
-// }
+:focus{
+    outline: none;
+}
 h1{
     text-transform: uppercase;
     margin: 0;
@@ -54,3 +54,6 @@ h2 {
     margin-bottom: 0px;
     color: getColor('secondary-text');
 } 
+a{
+    text-decoration: none;
+}

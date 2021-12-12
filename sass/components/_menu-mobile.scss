@@ -1,0 +1,102 @@
+.menu-container.is-open{
+    // background-color: chartreuse;
+    padding: 48px 40px;
+}
+.is-open .btn-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    &:focus,
+    &:hover{
+        fill: #2196F3;
+    }
+}
+.is-open .link--blue{
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.is-open .link--blaсk{
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.is-open .nav-list__menu:not(:last-child){
+    margin-bottom: 32px;
+}
+.is-open .top-line__icon-mail,.is-open .top-line__icon-tell {
+    display: none;
+}
+.is-open .top-line__link.mail{
+        font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.is-open .top-line__link.tell{
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    
+}
+.is-open .nav-list{
+    margin-bottom: 302px ;
+}
+.is-open .top-line__mail.list-contact{
+    margin-bottom: 64px;
+}
+.is-open .top-line__tell.list-contact{
+    margin-bottom: 32px;
+}
+.is-open .social-networks-list-mobile-menu{
+    display: flex;
+}
+.is-open .social-networks-list-mobile-menu__name{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.is-open .top-line__contact{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.is-open .list-inst{
+    position: relative;
+}
+.is-open .list-twit{
+    position: relative;
+}
+.is-open .list-face{
+    position: relative;
+}
+.is-open .list-inst::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 22px;
+    left: 94px;
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+}
+.is-open .list-twit::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 22px;
+    left: 67px;
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+}
+.is-open .list-face::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 22px;
+    left: 90px;
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+}
+.is-open .social-networks-list-mobile-menu__item:not(:last-child){
+    margin-right: 20px;
+}

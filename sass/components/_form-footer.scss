@@ -1,3 +1,15 @@
+.footer-form{
+    margin-right: auto;
+    margin-left: auto;
+    // margin-top: 60px;
+    @media screen and (min-width: 1200px){
+        margin: 0px;
+        padding-top: 15px;
+        .footer-form-block{
+            display: flex;
+        }
+    }
+}
 .footer-form-text{
     font-weight: bold;
     font-size: 14px;
@@ -7,16 +19,25 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
+    @media screen and (min-width: 1200px){
+        text-align: start;
+    }   
 }
-.footer-form-block{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+// .footer-form-block{
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+// }
 .footer-label-mail{
+    display: block;
     margin-bottom: 20px;
+    @media screen and (min-width: 1200px){
+        margin-right: 12px;
+        margin-bottom: 0px;
+    }
 }
 .footer-input--mail{
+    width: 100%;
     background: inherit;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -27,8 +48,17 @@
     line-height: 20px;
     color: getColor('footer-text-color');
     padding-left: 16px;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        width: 450px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 358px;
+    }
 }
 .footer-btn--subscribe{
+    display: block ;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: 200px;
     height: 50px;

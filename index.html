@@ -16,7 +16,8 @@
     <header class="top-line">  
         <div class="top-line__container">   
             <a href="/" class="logo"><span class="accent">Web</span>Studio </a>
-            <span class="btn-open"> <button
+            <span class="btn-open"> 
+                <button
                 class="menu-toggle js-open-menu"
                 aria-expanded="false"
                 aria-controls="mobile-menu"
@@ -26,12 +27,11 @@
                 </svg>
             </button></span>
             <div class="menu-container js-menu-container" id="mobile-menu">
-                <button class="menu-toggle js-close-menu">
+                <span class="btn-close"><button class="menu-toggle js-close-menu">
                     <svg width="40" height="40" aria-label="переключатель мобильного меню">
                         <use class="icon-cross" href="./item/menu.svg#icon-close_40px-1"></use>
                     </svg>
-                </button>
-                <!-- <nav class="nav"></nav> -->
+                </button></span>
                     <ul class="nav-list">
                         <li class="nav-list__menu"> <a class="link--blue" href="">Студия</a> </li>
                         <li class="nav-list__menu"> <a class="link--blaсk" href="./portfolio.html">Портфолио</a> </li>
@@ -42,15 +42,15 @@
 <!-- ==========================  contact  ================================-->
 
                 <ul class="top-line__contact">
-                    <li class="top-line__mail"><a class="top-line__link" href="mailto:info@devstudio.com"><svg class="top-line__icon-mail" width="16px" height="12px"><use href="./item/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com</a> </li>
-                    <li class="top-line__tell"><a class="top-line__link" href="tel:+380961111111"><svg class="top-line__icon-tell" width="10px" height="16px"><use href="./item/symbol-defs.svg#icon-tel"></use></svg>+38 096 111 11 11</a> </li>
+                    <li class="top-line__mail list-contact"><a class="top-line__link mail" href="mailto:info@devstudio.com"><svg class="top-line__icon-mail" width="16px" height="12px"><use href="./item/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com</a> </li>
+                    <li class="top-line__tell list-contact"><a class="top-line__link tell" href="tel:+380961111111"><svg class="top-line__icon-tell" width="10px" height="16px"><use href="./item/symbol-defs.svg#icon-tel"></use></svg>+38 096 111 11 11</a> </li>
                 </ul>
                 <!-- social networks -->
                 <ul class="social-networks-list-mobile-menu">
-                    <li class="social-networks-list-mobile-menu__item"><a class="social-networks-list-mobile-menu__name" href=""></a>Instagram</li>
-                    <li class="social-networks-list-mobile-menu__item"><a class="social-networks-list-mobile-menu__name" href=""></a>Twitter</li>
-                    <li class="social-networks-list-mobile-menu__item"><a class="social-networks-list-mobile-menu__name" href=""></a>Facebook</li>
-                    <li class="social-networks-list-mobile-menu__item"><a class="social-networks-list-mobile-menu__name" href=""></a>LinkedIn</li>
+                    <li class="social-networks-list-mobile-menu__item list-inst"><a class="social-networks-list-mobile-menu__name" href="">Instagram</a></li>
+                    <li class="social-networks-list-mobile-menu__item list-twit"><a class="social-networks-list-mobile-menu__name" href="">Twitter</a></li>
+                    <li class="social-networks-list-mobile-menu__item list-face"><a class="social-networks-list-mobile-menu__name" href="">Facebook</a></li>
+                    <li class="social-networks-list-mobile-menu__item list-link"><a class="social-networks-list-mobile-menu__name" href="">LinkedIn</a></li>
                 </ul>
             </div>
         </div> 
@@ -181,7 +181,6 @@
 
 <footer class="footer">
     <div class="footer__container">
-        <!-- <div class="block"></div> -->
         <div class="footer-block">
             <a class="logo--white" href="/"><span class="accent">Web</span>Studio </a>
             <address class="address" lang="ru"> г. Киев, пр-т Леси Украинки, 26 </address>
@@ -221,7 +220,9 @@
         <button class="btn" data-modal-close>
             <svg width="18" height="18"><use href="./item/close.svg#icon-close-black"></use></svg>
         </button>
-        <div><p class="backdrop__title">Оставьте свои данные, мы вам перезвоним</p></div>
+        <div>
+            <p class="backdrop__title">Оставьте свои данные, мы вам перезвоним</p>
+        </div>
         <!-- ============================form backdrop=========================== -->
         <form class="form">
             <div class="form__block">
@@ -246,8 +247,8 @@
                 <label class="form__label-text"> <input class="form__square" type="checkbox" name="agreement" value="tgttgg"/><span class="form__checkbox-icon"> </span> Соглашаюсь с рассылкой и принимаю   <a class="form__agreement-rools" href="">  Условия договора</a> </label>
             </div>
             <button class="submit" type="submit">Отправить</button>
-            </form>
-            </div>
+        </form>
+    </div>
         
     </div>
 
