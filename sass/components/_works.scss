@@ -7,27 +7,16 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-        }           @media screen and(min-width: 1200px) {
-                display: block;
-             padding-top: 94px;
-    padding-bottom: 94px;
-    margin-bottom: 0px;}
-    }
- 
- 
+        }          
+        @media screen and(min-width: 1200px) {
+            display: block;
+            padding-top: 94px;
+            padding-bottom: 94px;
+            margin-bottom: 0px;}
         }
-
-
-// .works{
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//     margin-bottom: 0px;
-//     &__container{
-//     @extend %container;
-// }   
-// 
+}
 .works-title{
-        text-align: center;
+    text-align: center;
     margin-bottom: 50px;
     color: getColor('secondary-text');
     font-weight: bold;

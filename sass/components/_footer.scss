@@ -144,46 +144,4 @@
 
 
 
-// .footer{
-//     background-color: getColor('background-footer');
-//     padding-top: 60px;
-//     padding-bottom: 60px;
-//     &__container{
-//         @extend %container;
-//         display: flex;
-//     }
-// }
-// .logo--white{
-//     @extend %logo;
-//     color: getColor('accent-activ-text'); 
-//     display: block;
-//     margin-bottom: 20px;
-//     margin-right: 93px;
-// }
-// .address{
-//     font-style: normal;
-//     color: getColor('accent-activ-text');    
-//     font-weight: normal;
-//     font-size: getFont('primary');
-//     line-height: 1.7;
-//     letter-spacing: 0.03em;
-//     margin-bottom: 9px;
-// }
-// .footer-link{
-//     text-decoration: none;
-//     color: getColor('footer-text-color');
-//     font-size: getFont('primary');
-//     line-height: 1.7;
-//     letter-spacing: 0.03em;
-//     transition-property: color ;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-//     &:hover,
-//     &:focus{
-//         color: getColor('accent-activ');
-//     }
-// }
-// .footer-box:not(:last-child){
-//     margin-bottom: 9px;
-// }
 
