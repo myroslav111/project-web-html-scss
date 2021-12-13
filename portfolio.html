@@ -7,7 +7,6 @@
     <title>portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body class="pageportfolio">
@@ -16,20 +15,45 @@
 
     <header class="top-line">
         <div class="top-line__container">   
-        <a href="/" class="logo"><span class="accent">Web</span>Studio </a>
-        <nav class="nav">
-        <ul class="nav-list">
-            <li class="nav-list__menu"> <a class="link--blaсk" href="./index.html">Студия</a></li>
-            <li class="nav-list__menu"> <a class="link--blue" href="">Портфолио</a></li>
-            <li class="nav-list__menu"> <a class="link--blaсk" href="">Контакты</a></li>
-        </ul>
-    </nav
+            <a href="/" class="logo"><span class="accent">Web</span>Studio </a>
+            <span class="btn-open"> 
+                <button
+                class="menu-toggle js-open-menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+                >
+                    <svg width="40" height="40" aria-label="переключатель мобильного меню">
+                        <use class="icon-menu" href="./item/menu.svg#icon-menu_40px-1"></use>
+                    </svg>
+                </button>
+            </span>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <span class="btn-close">
+                    <button class="menu-toggle js-close-menu">
+                        <svg width="40" height="40" aria-label="переключатель мобильного меню">
+                            <use class="icon-cross" href="./item/menu.svg#icon-close_40px-1"></use>
+                        </svg>
+                    </button>
+                </span>             
+                <ul class="nav-list">
+                    <li class="nav-list__menu"> <a class="link--blaсk" href="./index.html">Студия</a></li>
+                    <li class="nav-list__menu"> <a class="link--blue" href="">Портфолио</a></li>
+                    <li class="nav-list__menu"> <a class="link--blaсk" href="">Контакты</a></li>
+                </ul>
 <!--=============================== contact 2==========================================-->
-    <ul class="top-line__contact">
-        <li class="top-line__mail"><a class="top-line__link" href="mailto:info@devstudio.com"><svg class="top-line__icon-mail" width="16px" height="12px"><use href="./item/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
-        <li class="top-line__tell"><a class="top-line__link" href="tel:+380961111111"><svg class="top-line__icon-tell" width="10px" height="16px"><use href="./item/symbol-defs.svg#icon-tel"></use></svg>+38 096 111 11 11</a></li>
-    </ul>
-       </div>
+                <ul class="top-line__contact">
+                    <li class="top-line__mail list-contact"><a class="top-line__link mail" href="mailto:info@devstudio.com"><svg class="top-line__icon-mail" width="16px" height="12px"><use href="./item/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com</a></li>
+                    <li class="top-line__tell list-contact"><a class="top-line__link tell" href="tel:+380961111111"><svg class="top-line__icon-tell" width="10px" height="16px"><use href="./item/symbol-defs.svg#icon-tel"></use></svg>+38 096 111 11 11</a></li>
+                </ul>
+                <!-- social networks -->
+                <ul class="social-networks-list-mobile-menu">
+                    <li class="social-networks-list-mobile-menu__item list-inst"><a class="social-networks-list-mobile-menu__name" href="">Instagram</a></li>
+                    <li class="social-networks-list-mobile-menu__item list-twit"><a class="social-networks-list-mobile-menu__name" href="">Twitter</a></li>
+                    <li class="social-networks-list-mobile-menu__item list-face"><a class="social-networks-list-mobile-menu__name" href="">Facebook</a></li>
+                    <li class="social-networks-list-mobile-menu__item list-link"><a class="social-networks-list-mobile-menu__name" href="">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
 <!--============================== buttons portfolio ============================================ -->
 
@@ -72,36 +96,43 @@
 <footer class="footer">
     <div class="footer__container">
         <div class="footer-block">
-    <a class="logo--white" href="/" ><span class="accent">Web</span>Studio </a>
-    <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-    <ul class="footer-contakt">
-        <li class="footer-box"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="footer-box"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
+            <a class="logo--white" href="/" ><span class="accent">Web</span>Studio </a>
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+            <ul class="footer-contakt">
+                <li class="footer-box"><a class="footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-box"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
         </div>
         <!-- ================================links footer============================================ -->
         <section class="footer-links">
             <div class="footer-block-links">
-        <h2 class="footer-block-links__title">присоединяйтесь</h2>
-        <ul class="footer-list-links">
-            <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-instagram-2"></use></svg></a></li>
-            <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-twitter-1"></use></svg></a></li>
-            <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-facebook-1"></use></svg></a></li>
-            <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-linkedin-1"></use></svg></a></li>
-        </ul>
-       </div>
+                <h2 class="footer-block-links__title">присоединяйтесь</h2>
+                <ul class="footer-list-links">
+                    <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-instagram-2"></use></svg></a></li>
+                    <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-twitter-1"></use></svg></a></li>
+                    <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-facebook-1"></use></svg></a></li>
+                    <li class="footer-social-networks"><a class="footer-link-social-networks" href=""><svg class="icon-footer"><use href="./item/sprite.svg#icon-linkedin-1"></use></svg></a></li>
+                </ul>
+            </div>
+        </section>
        <!-- ====================================footer form================================ -->
-       <form class="footer-form">
-           <p class="footer-form-text">Подпишитесь на рассылку</p>
-           <div class="footer-form-block">
-               <label class="footer-label-mail"><input class="footer-input--mail" type="email" name="email" placeholder="E-mail"></label>
-               <button class="footer-btn--subscribe">Подписаться <span class="svg-plain" ><svg class="icon-plain" width="20px"><use href="./item/sprite.svg#icon-icon-send"></use></svg></span></button>
-           </div>
-       </form>
-    </section>
+        <form class="footer-form">
+            <p class="footer-form-text">Подпишитесь на рассылку</p>
+            <div class="footer-form-block">
+                <label class="footer-label-mail"><input class="footer-input--mail" type="email" name="email" placeholder="E-mail"></label>
+                <button class="footer-btn--subscribe">Подписаться <span class="svg-plain" ><svg class="icon-plain" width="20px"><use href="./item/sprite.svg#icon-icon-send"></use></svg></span></button>
+            </div>
+        </form>   
     </div>
 </footer>
-
-    
+<!-- ================================================js=========================================== -->
+<script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+></script>
+<script defer src="js/mobile-menu.js"></script>
+<script src="./js/modal.js"></script>
 </body>
 </html>

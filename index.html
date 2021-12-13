@@ -21,17 +21,20 @@
                 class="menu-toggle js-open-menu"
                 aria-expanded="false"
                 aria-controls="mobile-menu"
-            >
-                <svg width="40" height="40" aria-label="переключатель мобильного меню">
-                    <use class="icon-menu" href="./item/menu.svg#icon-menu_40px-1"></use>
-                </svg>
-            </button></span>
-            <div class="menu-container js-menu-container" id="mobile-menu">
-                <span class="btn-close"><button class="menu-toggle js-close-menu">
+                >
                     <svg width="40" height="40" aria-label="переключатель мобильного меню">
-                        <use class="icon-cross" href="./item/menu.svg#icon-close_40px-1"></use>
+                        <use class="icon-menu" href="./item/menu.svg#icon-menu_40px-1"></use>
                     </svg>
-                </button></span>
+                </button>
+            </span>
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <span class="btn-close">
+                    <button class="menu-toggle js-close-menu">
+                        <svg width="40" height="40" aria-label="переключатель мобильного меню">
+                            <use class="icon-cross" href="./item/menu.svg#icon-close_40px-1"></use>
+                        </svg>
+                    </button>
+                </span>
                     <ul class="nav-list">
                         <li class="nav-list__menu"> <a class="link--blue" href="">Студия</a> </li>
                         <li class="nav-list__menu"> <a class="link--blaсk" href="./portfolio.html">Портфолио</a> </li>
@@ -253,13 +256,13 @@
     </div>
 
 <!-- ============================js======================================================== -->
-     <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="js/mobile-menu.js"></script>
- <script src="./js/modal.js"></script>
+<script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+></script>
+<script defer src="js/mobile-menu.js"></script>
+<script src="./js/modal.js"></script>
 </body>
 </html>
