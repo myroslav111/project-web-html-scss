@@ -1,6 +1,7 @@
 .menu-container.is-open{
     // background-color: chartreuse;
     padding: 48px 40px;
+    z-index: 1;
 }
 .is-open .btn-close{
     position: absolute;
