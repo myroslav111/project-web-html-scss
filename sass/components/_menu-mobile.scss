@@ -1,7 +1,8 @@
 .menu-container.is-open{
     // background-color: chartreuse;
-    padding: 48px 40px;
+    padding: 48px 40px 60px 40px;
     z-index: 1;
+
 }
 .is-open .btn-close{
     position: absolute;
@@ -44,10 +45,11 @@
     
 }
 .is-open .nav-list{
-    margin-bottom: 302px ;
+    // margin-bottom: 507px ;
+    height: 100%;
 }
 .is-open .top-line__mail.list-contact{
-    margin-bottom: 64px;
+    margin-bottom: 54px;
 }
 .is-open .top-line__tell.list-contact{
     margin-bottom: 32px;

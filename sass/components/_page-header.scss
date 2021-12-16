@@ -28,6 +28,8 @@
             .menu-container.is-open{
                 transform: translateX(0);
                 opacity: 1;
+                display: flex;
+                flex-direction: column;
             }
             .menu-toggle{
                 min-width: 40px;

@@ -17,7 +17,9 @@
     }
 }
 .team-member-card:not(:last-child){
+    @media screen and (max-width: 768px){
     margin-bottom: 30px;
+    }
     @media screen and (min-width: 1200px){
         margin-bottom: 0;
         margin-right: 30px;
@@ -29,17 +31,10 @@
     max-width: 450px;
     @media screen and (min-width: 768px)  {
         max-width: 354px;
-        margin: 0;
     }
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         width: calc((100% - 2 * 30px) / 2);
-        &:nth-child(2n) {
-            margin-left: 30px; 
-            margin-right: 0px;
-        }
-        &:nth-child(3) {
-            margin-bottom: 0px;
-        }
+        margin: 15px;
     }
 }
     
@@ -125,9 +120,10 @@
     @media screen and (min-width: 768px){
         display: flex;
         flex-wrap: wrap;
-        &:nth-child(2n) {
-            margin-right: -30px;
-        }
+        margin: -15px;
+        // &:nth-child(2n) {
+        //     margin-right: -30px;
+        // }
     }
 }
 
