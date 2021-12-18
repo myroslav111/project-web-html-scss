@@ -1,8 +1,14 @@
 .team{
     background: #F5F4FA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px){
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
     &__container{
         background: #F5F4FA;
-        padding: 60px 15px;
+        padding: 0px 15px;
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;
@@ -11,8 +17,8 @@
         }
         @media screen and (min-width: 1200px){
             max-width: 1200px;
-            padding-top: 94px;
-            padding-bottom: 94px;
+            // padding-top: 94px;
+            // padding-bottom: 94px;
         }
     }
 }
@@ -121,9 +127,9 @@
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
-        // &:nth-child(2n) {
-        //     margin-right: -30px;
-        // }
+    }
+    @media screen and (min-width: 1200px){
+        margin: 0;
     }
 }
 
