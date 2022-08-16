@@ -1,1 +1,2 @@
-# goit-markup-hw-08.
+Basic visit web site (Service Advertising).
+Stack HTML, SCSS, js,
